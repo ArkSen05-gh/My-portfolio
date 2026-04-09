@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Premium Design</title>
+    <meta name="description" content="Personal Portfolio showcasing skills, projects, and experience.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Animated Shapes -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">PORTFOLIO<span>.</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About & Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="hero-content">
+                <span class="greeting">Hello, I'm</span>
+                <h1 class="hero-title">Arka Sengupta</h1>
+                <h2 class="hero-subtitle">CSE Undergraduate</h2>
+                <p class="hero-description"> 
+                     Tech-savvy innovator with hands-on experience in emerging technologies and passion for continuous improvement
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/arka-sengupta/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/ArkSen05-gh" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="hero-image-wrapper">
+                    <img src="assets/photo1.jpg" alt="Profile" class="hero-image">
+                    <div class="image-backdrop"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About & Skills Section -->
+        <section id="about" class="about section">
+            <div class="section-header">
+                <h2 class="section-title">About & Skills</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        A passionate coder with a strong curiosity for learning new technologies and a keen analytical mindset.
+                        Skilled in identifying opportunities for technological enhancements and implementing effective solutions. 
+                        Adapt at leveraging new tools and methods to solve problems and enhance productivity. 
+                        Excels in adapting to fast-paced environments and driving technological advancements.
+                    </p>
+                    <p>
+                        When I'm not coding, you'll find me exploring new design trends, learning new frameworks, or contributing 
+                        to open-source communities.
+                    </p>
+                </div>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React.js</span>
+                            <span class="skill-tag">Tailwind CSS</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Flask</span>
+                            <span class="skill-tag">FastAPI / Python</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">SupaBase</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Interest</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">AI-ML</span>
+                            <span class="skill-tag">NLP</span>
+                            <span class="skill-tag">Computer Vision</span>
+                            <span class="skill-tag">Deep Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education Section -->
+        <section id="experience" class="experience section">
+            <div class="section-header">
+                <h2 class="section-title">Achievements & Education</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="timeline-container">
+                <div class="timeline-column">
+                    <h3 class="column-title"><i class="fa-solid fa-briefcase"></i> Achievements</h3>
+                    <div class="timeline">
+                        <!-- Experience Item 1 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Hackathons</h4>
+                                <h5>HackOasis under IEM KOlkata (x2 participation)</h5>
+                                <span class="timeline-date">2023 & 2024</span>
+                                <p>Spearheaded a team project on a weather forecasting model with natural disaster Prediction (cyclone, tsunami, landslide, earthquake).
+                                   Tech Stack: Basic ML algorithms</p>
+                                <p>Personalized Mental Health Conversation Companion| A health AI Chatbot that tracks your mood, emotions, and analyses sentiments.
+                                   Tech Stack: NLP (Mood Recognition), Flask API, Basic Frontend/Backend</p>
+                            </div>
+                        </div>
+                        <!-- Experience Item 2 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Event</h4>
+                                <h5>World Robotics Championship Technoxian 9.0, Delhi</h5>
+                                <span class="timeline-date">Sept 2025</span>
+                                <p>Fastest Line Follower- Positioned 5th over 300 teams all over the world (34.26 sec).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-column">
+                    <h3 class="column-title"><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+                    <div class="timeline">
+                        <!-- Education Item 1 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>B.tech in Computer Science</h4>
+                                <h5>Institute of Engineering and Management, Kolkata</h5>
+                                <span class="timeline-date">2023 - 2027</span>
+                                <p>Currently in 3rd year</p>
+                            </div>
+                        </div>
+                  
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="section-header center">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="divider center"></div>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #FF6B6B 0%, #556270 100%);">
+                        <div class="project-overlay">
+                            <a href="#" class="view-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#" class="view-btn"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>AI Resume Builder, Analyzer & Job Matching Platform</h3>
+                        <p> The AI-driven platform transforms recruitment by building and analysing resumes for applicant feedback and 
+                            delivering ranked candidate matches to recruiters via NLP-powered semantic similarity. </p>
+                        <div class="https://github.com/ArkSen05-gh/Resume_analyser_job_matching_platform.git">
+                            <span>HTML/CSS/JavaScript</span>
+                            <span>Langraph/Gemini API/NLTK/Flask</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <div class="project-overlay">
+                            <a href="#" class="view-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#" class="view-btn"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>AI-Powered Mock Interview Interface using and Behavioural Analysis</h3>
+                        <p>The project develops an AI-powered mock interview platform that analyses behavioural cues like eye movements, 
+                            facial expressions, speech, and tone alongside technical accuracy, offering personalized 
+                            feedback to help candidates build confidence overcome anxiety and improve real-world 
+                            performance. </p>
+                        <div class="https://github.com/ArkSen05-gh/calm-interview.git">
+                            <span>React.js/Tailwind CSS</span>
+                            <span>Langraph/Gemini API</span>
+                            <span>Speech Processing (OpenAI whisper)</span>
+                            <span>Facial & Emotion Detection(MediaPipe, DeepFace)</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <div class="project-overlay">
+                            <a href="#" class="view-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#" class="view-btn"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>AI-Based Food Calorie Estimation & Personalized Nutrition Planning System</h3>
+                        <p>This research presents an AI-driven ecosystem for personalized nutrition and fitness, integrating food recognition, meal planning, and workouts 
+                            tailored to Indian cuisine, addressing health issues through advanced deep learning and 
+                            optimization for real-world dietary challenges. </p>
+                        <div class="project-tags">
+                            <span>Python 3.10+ / OpenCV, NumPy</span>
+                            <span>Ultralytics YOLOv8/ Mistral-AI 7B </span>
+                            <span>HTML/CSS/Vanilla.js</span>
+                        </div>
+                    </div>
+                </div>
+                
+                 <!-- Project 4-->
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <div class="project-overlay">
+                            <a href="#" class="view-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#" class="view-btn"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Football Data Analytics & AI Decision Support Platform</h3>
+                        <p>Get real-time answers on football stats, players, clubs, and match insights using a smart AI agentic system. Select your dream lineup with full stat-based player 
+                            info from the Premier League & Women’s Super League! Predict transfer fees using machine 
+                            learning for accurate market evaluation. Compare players across key metrics with beautiful 
+                            plots. Automatically suggest the strongest Lineup based on opponent clubs, season stats and player form.  </p>
+                        <div class=" https://github.com/Football-Data-Analysis-Summer-Project">
+                            <span>Python/ Scikit Learn/ NumPy</span>
+                            <span>Langchain/ gemini Flash 2.0/retrievalQA </span>
+                            <span>HTML/CSS/Vanilla.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements section">
+            <div class="section-header">
+                <h2 class="section-title">Achievements & Certifications</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="achievements-list">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fa-solid fa-trophy"></i>
+                    </div>
+                    <div class="achievement-details">
+                        <h4>Accenture go for Gold Contest</h4>
+                        <p>Achieved Gold Rank in the Contest.</p>
+                    </div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+                    <div class="achievement-details">
+                        <h4>WRC Technoxian 9.0</h4>
+                        <p>Runner UP to 5th position over 300 teams in the Fastest Line Follower</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="contact-card">
+                <h2 class="contact-title">Open to Work</h2>
+                <p class="contact-desc">Contact Me from any of the below options</p>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="info-text">
+                            <span>Email Me</span>
+                            <a href="mailto:hello@example.com">arkasengupta05@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="info-text">
+                            <span>Call Me</span>
+                            <a href="tel:+1234567890">+91 8918459726</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                        <div class="info-text">
+                            <span>Location</span>
+                            <p>Kolkata, West Bengal, India</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">PORTFOLIO<span>.</span></div>
+            <p>&copy; 2026 Your Name. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Intersection Observer & Interactions -->
+    <script src="script.js"></script>
+</body>
+</html>
